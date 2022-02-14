@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      
+    <title>Inicio de sesiòn</title>
+    <style>
+        
+        body{
+            background: url('Img/FOND000.jpg') no-repeat center center fixed;
+            
+            background-size: cover;
+            -webkit-backdrop-size: cover;
+            -o-background-size: cover;
+        }
+        .card{
+            background-color: rgba(151, 12, 12, 0.5) !important;
+           
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container"> 
+     
+        <div class="row">
+         
+            <div class="col-md-5 mx-auto" style="margin-top: 250px;">
+                        <div class="mx-auto p-3 shadow" style="background-color: rgb(250, 248, 248); width: 150px; height: 150px; border: solid 1px #fcfcfc; border-radius: 50%; margin-top: -100px;">
+                        <img src="Img/Imglog.gif" style="width: 95%;">
+                        </div>
+                        <form action="menup.html" method="POST" class= "my-3">
+                            <div class="input-group mb-3 input-group-lg">
+                                <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                <input type="email" class="form-control" placeholder="Correo" name="txtCorreo">
+                            </div>
+                            <div class="input-group mb-3 input-group-lg">
+                                <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                <input type="password" class="form-control" placeholder="Contraseña" name="txtPws">
+                            </div>
+                            
+                            <div class="form-group input-group-lg mb-3">
+                               
+                              <a href="menup.html"> <button class="btn btn-dark form-control"> <i class="fas fa-sign-in-alt"> Iniciar </i> </button>
+                            </a> </div>
+
+                        </form>
+                        <div class="form-group input-group-lg mb-3">
+                               
+                            <button class="btn btn-dark form-control">  
+                            <a href="recuperarc.html"><i class="fas fa-lock-alt"></i>  ¿ Olvidaste contraseña?. </button></a> 
+                        </div>
+                        <p>
+                            <div class="form-group input-group-lg mb-3">
+                               
+                                <button class="btn btn-dark form-control">  
+                                 <a href="CrearC.html"> <i class="fas fa-pen-alt"></i> Crear cuenta . </button>
+                            </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+  </div>       
+</body>
+</html>
